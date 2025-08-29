@@ -6,3 +6,7 @@ double b = 9;
 double c = 7;
 double d = (a + b) / c;
 Console.WriteLine(d);
+
+double max = double.MaxValue;
+double min = double.MinValue;
+Console.WriteLine($"The range of double value is {min} to {max}");
