@@ -1,10 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.Clear();
 
-double a = 1.0;
-double b = 3.0;
-Console.WriteLine(a / b);
-
-decimal c = 1.0M;
-decimal d = 3.0M;
-Console.WriteLine(c / d);
+double radius = 2.50;
+double area = radius * radius * Math.PI;
+Console.WriteLine(area);
