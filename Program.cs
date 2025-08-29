@@ -10,3 +10,6 @@ Console.WriteLine(d);
 double max = double.MaxValue;
 double min = double.MinValue;
 Console.WriteLine($"The range of double value is {min} to {max}");
+
+double ninth = 1.0 / 9.0;
+Console.WriteLine(ninth);
